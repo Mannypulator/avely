@@ -15,7 +15,7 @@
 body {
     line-height: 1.4;
     font-family: 'Montserrat Alternates', sans-serif;
-    background:#333;
+    background:#333 center center;
 }
 p {
     font-family: 'Montserrat';
@@ -123,6 +123,7 @@ input[type='text']{
     padding:0 2rem;
 }
 
+
 /* Logo styling */
 #logo img {
     width:20rem;
@@ -196,6 +197,7 @@ form a {
     width: 4rem;
     margin: 0.2rem;
     padding: 0 0.5rem;
+    background: inherit;
 }
 
 .social a {
