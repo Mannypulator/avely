@@ -17,6 +17,7 @@ body {
     font-family: 'Montserrat Alternates', sans-serif;
     background:  #f0f0f0 url('https://res.cloudinary.com/brunoelo/image/upload/v1590168301/SNG%20Project/Sign_Up.png')
     no-repeat  center center;
+    overflow: auto;
 }
 p {
     font-family: 'Montserrat';
