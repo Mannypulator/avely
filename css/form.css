@@ -12,12 +12,13 @@
     box-sizing: border-box;
 }
 
-body {
+html,body {
     line-height: 1.4;
     font-family: 'Montserrat Alternates', sans-serif;
     background:  #f0f0f0 url('https://res.cloudinary.com/brunoelo/image/upload/v1590168301/SNG%20Project/Sign_Up.png')
     no-repeat  center center;
     overflow: auto;
+    margin: auto;
 }
 p {
     font-family: 'Montserrat';
@@ -94,6 +95,8 @@ input[type='text']{
 .container {
     max-width: 80rem;
     margin:0 auto;
+    padding: 4rem;
+    
 }
 .form-container {
     display: flex;
@@ -101,9 +104,7 @@ input[type='text']{
     align-items: center;
     text-align: center;
     justify-content: center;
-    overflow: auto;
-    padding: 3rem;
-    overflow: auto;
+    padding: 4rem;
 }
 
 .btn {
